@@ -48,7 +48,7 @@ body{
     height: 200px;
     position: absolute;
     top: 54%;
-    left: 57%;
+    left: 54%;
     animation: girl-dolna 4s linear alternate infinite;
     transform-origin: right top ;
 }

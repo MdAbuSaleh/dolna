@@ -35,10 +35,10 @@ body{
 
 @keyframes boy-dolna {
     to{
-        transform: rotate(-80deg);
+        transform: rotate(-70deg);
     }
     form{
-        transform: rotate(-80deg);
+        transform: rotate(-70deg);
     }
   
 }

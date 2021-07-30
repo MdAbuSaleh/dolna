@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+body{
+    background-image: linear-gradient(150deg, gold, black);
+    height: 100vh;
+}
+.main-image{
+    width: 100%;
+}
+.main-image img{
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.image-boy img{
+    max-width: 60%;
+    height: 200px;
+    position: absolute;
+    top: 56%;
+    left: 25%;
+    animation: boy-dolna 4s linear alternate infinite;
+    transform-origin: right top ;
+    
+}
+
+@keyframes boy-dolna {
+    to{
+        transform: rotate(-80deg);
+    }
+    form{
+        transform: rotate(-80deg);
+    }
+  
+}
+
+.image-girl img{
+    max-width: 60%;
+    height: 200px;
+    position: absolute;
+    top: 54%;
+    left: 57%;
+    animation: girl-dolna 4s linear alternate infinite;
+    transform-origin: right top ;
+}
+
+@keyframes girl-dolna {
+    to{
+        transform: translate(0, 20px);
+    }
+    form{
+        transform: translate(0, -20px);
+    }
+    
+}
